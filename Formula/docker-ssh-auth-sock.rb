@@ -1,11 +1,11 @@
 class DockerSshAuthSock < Formula
   desc "Use SSH Agent from macOS within Docker"
   homepage "https://punkt.de"
-  url "https://raw.githubusercontent.com/punktDe/docker-mac-ssh-auth-sock/8a338065bf8e101193860ecde7c15ff4978afd44/docker-ssh-auth-sock",
+  url "https://raw.githubusercontent.com/punktDe/docker-mac-ssh-auth-sock/e2abded95bd104ec10e8d98fb1303b5f890e42cb/docker-ssh-auth-sock",
       :using => :nounzip
 
-  version "1"
-  sha256 "43a5f5ea5aaa7beee03d4af34ce2bc24d2aa5aecf8ad773c4f8600baf27471d0"
+  version "2"
+  sha256 "e06312bee8ad5161f8a1bb4c0ac52cbc51c3411f68b49ee385146501b8771fa1"
 
   bottle :unneeded
 
