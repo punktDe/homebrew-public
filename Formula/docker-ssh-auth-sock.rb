@@ -7,8 +7,6 @@ class DockerSshAuthSock < Formula
   version "2"
   sha256 "e06312bee8ad5161f8a1bb4c0ac52cbc51c3411f68b49ee385146501b8771fa1"
 
-  bottle :unneeded
-
   depends_on "socat"
 
   def install
